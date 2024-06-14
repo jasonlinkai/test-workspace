@@ -1,4 +1,4 @@
-import headerF from "@test-workspace/header";
+import headerF from "@test-workspace/header2";
 import footerF from "@test-workspace/footer";
 
 const f = () => {
