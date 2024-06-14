@@ -1,0 +1,9 @@
+{
+  "name": "@test-workspace/app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@test-workspace/footer": "^1.0.0"
+  }
+}

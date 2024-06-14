@@ -1,0 +1,15 @@
+{
+  "name": "test-workspace",
+  "version": "1.0.0",
+  "description": "test-workspace, and lerna.",
+  "main": "index.js",
+  "author": "jacky",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  }
+}
