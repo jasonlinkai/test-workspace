@@ -13,7 +13,7 @@ NODE_ENV=production npx lerna run build --since
 最後loop changed.json的資料進行dist的搬遷即可。
 
 ```sh
-# 這指令會將異動到的部分建立新的版本號碼，互相依賴的部分也會一起提升版本，並建立TAG，這邊是自動走最小版本號碼 1.0.0 => 1.0.1。
+# 這指令會將異動到的部分建立新的版本號碼，互相依賴的部分也會一起提升版本，並建立TAG，版本升級情形為1.0.0 => 1.1.0，並依照提交自動建立changeLog。
 npx lerna version --yes --conventional-commits
 # 這個指令選用，它會自動將private=false的workspace依照配置部署至npm
 npx lerna publish --yes --no-private
