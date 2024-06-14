@@ -1,6 +1,6 @@
 {
   "name": "@test-workspace/app2",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@test-workspace/footer": "^1.0.2",
-    "@test-workspace/header2": "^1.0.5"
+    "@test-workspace/header2": "^1.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
