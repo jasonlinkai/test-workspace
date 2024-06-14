@@ -1,11 +1,11 @@
-var t = require("@test-workspace/footer");
-var a = "app";
+var headerF = require("@test-workspace/header")
+var footerF = require("@test-workspace/footer")
+var f = function() {
+  var v = "app";
+  headerF();
+  footerF();
+  console.log(v);
+  return v;
+}
 
-var af = function () {
-  t();
-  console.log(a);
-};
-
-af();
-
-module.exports = af;
+module.exports = f;

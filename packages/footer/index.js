@@ -1,8 +1,7 @@
-var t = require("@test-workspace/header");
-var a = "footer";
-
-var af = function() {
-  t();
+var f = function() {
+  var v = "footer";
+  console.log(v);
+  return v;
 }
 
-module.exports = af;
+module.exports = f;

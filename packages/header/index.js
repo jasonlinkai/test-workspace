@@ -1,7 +1,7 @@
-var a = "header";
-
-var af = function() {
-  console.log(a);
+var f = function() {
+  var v = "header";
+  console.log(v);
+  return v;
 }
 
-module.exports = af;
+module.exports = f;
