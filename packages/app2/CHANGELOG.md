@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.2.0](https://github.com/jasonlinkai/test-workspace/compare/v1.1.0...v1.2.0) (2024-06-14)
 
-**Note:** Version bump only for package @test-workspace/app
-
-
-
-
-
-# [1.1.0](https://github.com/jasonlinkai/test-workspace/compare/v1.0.6...v1.1.0) (2024-06-14)
-
-**Note:** Version bump only for package @test-workspace/app
+**Note:** Version bump only for package @test-workspace/app2

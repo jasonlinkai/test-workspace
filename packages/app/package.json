@@ -1,6 +1,6 @@
 {
   "name": "@test-workspace/app",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "npx rollup -c"
   },
   "dependencies": {
-    "@test-workspace/footer": "^1.0.2",
+    "@test-workspace/footer": "^1.2.0",
     "@test-workspace/header": "^1.1.0"
   },
   "devDependencies": {
