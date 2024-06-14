@@ -1,7 +1,7 @@
-var f = function() {
-  var v = "header";
+const f = function () {
+  const v = "header";
   console.log(v);
   return v;
-}
+};
 
-module.exports = f;
+export default f;

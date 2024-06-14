@@ -1,7 +1,7 @@
-var f = function() {
-  var v = "footer";
+const f = function () {
+  const v = "footer";
   console.log(v);
   return v;
-}
+};
 
-module.exports = f;
+export default f;
