@@ -1,0 +1,16 @@
+{
+  "name": "@test-workspace/app2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@test-workspace/footer": "^1.0.0",
+    "@test-workspace/header": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
