@@ -17,12 +17,15 @@
     "lerna:lint": "npx lerna run lint",
     "lerna:test": "npx lerna run test",
     "lerna:build": "npx lerna run build",
-    "lerna:version": "npx lerna version"
+    "lerna:version": "npx lerna version",
+    "postinstall": "husky",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
-  "prepare": "node .husky/install.mjs",
   "devDependencies": {
     "husky": "^9.0.11",
     "lerna": "^8.1.3",
-    "lint-staged": "^15.2.7"
+    "lint-staged": "^15.2.7",
+    "pinst": "^3.0.0"
   }
 }
